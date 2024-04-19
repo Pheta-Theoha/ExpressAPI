@@ -1,0 +1,136 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+      "title": "Sample API",
+      "version": "1.0.0",
+      "description": "A sample API using Swagger/OpenAPI"
+    },
+    "paths": {
+      "/ping": {
+        "get": {
+          "summary": "Get a greeting message",
+          "description": "Returns a greeting message",
+          "responses": {
+            "200": {
+              "description": "Successful response",
+              "content": {
+                "application/json": {
+                  "example": {
+                    "message": "Hello, world!"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "/nominees": {
+        "get": {
+          "summary": "Get all nominees",
+          "description": "Returns a list of nominees",
+          "responses": {
+            "200": {
+              "description": "Successful response",
+              "content": {
+                "application/json": {
+                  "example": {
+                    "message": "Nominees"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "/requests": {
+        "get": {
+          "summary": "Get all requests",
+          "description": "Returns a list of requests",
+          "responses": {
+            "200": {
+              "description": "Successful response",
+              "content": {
+                "application/json": {
+                  "example": {
+                    "message": "Hello, requests!"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "/voters": {
+        "get": {
+          "summary": "Get all voters",
+          "description": "Returns a list of voters",
+          "responses": {
+            "200": {
+              "description": "Successful response",
+              "content": {
+                "application/json": {
+                  "example": {
+                    "message": "Hello, voters!"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "/votes": {
+        "get": {
+          "summary": "Get all votes",
+          "description": "Returns a list of votes",
+          "responses": {
+            "200": {
+              "description": "Successful response",
+              "content": {
+                "application/json": {
+                  "example": {
+                    "message": "Hello, votes!"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "/categories": {
+        "get": {
+          "summary": "Get all categories",
+          "description": "Returns a list of categories",
+          "responses": {
+            "200": {
+              "description": "Successful response",
+              "content": {
+                "application/json": {
+                  "example": {
+                    "message": "Hello, categories!"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "/socialhandles": {
+        "get": {
+          "summary": "Get all social handles",
+          "description": "Returns a list of social handles",
+          "responses": {
+            "200": {
+              "description": "Successful response",
+              "content": {
+                "application/json": {
+                  "example": {
+                    "message": "Hello, social handles!"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
